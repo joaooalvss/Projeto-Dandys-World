@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Dandy's World</title>
+
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <div class="toons">
+            <div class="cartoes-toon">
+                <div class="cartao-toon tipo-especial aberto" id="cartao-dandy">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Dandy</h2>
+                        </div>
+                        <span class="tipo">toon</span>
+                        <div class="cartao-imagem">
+                            <img src="./src/imagens/dandy.png" alt="Dandy">
+                        </div>
+                    </div>
+                    <div class="cartao-informacoes">
+                        <div class="descricao">
+                            <h3>Descrição</h3>
+                            <p>Dandy é o personagem ícone do universo Dandy's World. Ele
+                                é um personagem que somente pode ser jogado por um desenvolvedor do jogo. Porém, ainda é
+                                possível presenciá-lo como o vendedor de itens nas partidas ou como Twisted quando você
+                                deixa de comprar os seus itens.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cartao-toon tipo-extrator" id="cartao-boxten">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Boxten</h2>
+                        </div>
+                        <span class="tipo">toon</span>
+                        <div class="cartao-imagem">
+                            <img src="./src/imagens/boxten.png" alt="Boxten">
+                        </div>
+                    </div>
+                    <div class="cartao-informacoes">
+                        <div class="descricao">
+                            <h3>Descrição</h3>
+                            <p>Boxten é um personagem de Dandy's World que tem uma classificação mista entre os
+                                jogadores. Ele é descrito como "nem bom, nem ruim", com habilidades balanceadas,
+                                mas que
+                                não se destacam significativamente. Boxten é um extrator, o que significa que
+                                sua
+                                principal função é coletar recursos, mas ele não é o melhor nesse aspecto. Seu
+                                desempenho é mais eficaz quando parte de uma equipe bem estruturada, já que suas
+                                habilidades de extração não são excepcionais. Embora ele não seja muito
+                                eficiente em
+                                alguns aspectos, ele oferece uma boa versatilidade dependendo da composição do
+                                time,
+                                além de ser um dos personagens iniciais e principais.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="cartao-toon tipo-allrounder" id="cartao-poppy">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Poppy</h2>
+                        </div>
+                        <span class="tipo">toon</span>
+                        <div class="cartao-imagem">
+                            <img src="./src/imagens/poppy.png" alt="Poppy">
+                        </div>
+                    </div>
+                    <div class="cartao-informacoes">
+                        <div class="descricao">
+                            <h3>Descrição</h3>
+                            <p>Poppy, embora considerada uma escolha menos popular em Dandy's World, possui
+                                qualidades que podem ser vantajosas em situações específicas. Ela é uma
+                                distraidora, com a capacidade de ajudar a desviar a atenção dos inimigos. Embora
+                                seu boost de velocidade só ative após ser atacada, isso pode ser útil em
+                                cenários onde ela está em perigo e precisa ganhar vantagem rapidamente. Além
+                                disso, a habilidade de Poppy pode ser valiosa para criar oportunidades
+                                estratégicas, especialmente quando usada de forma coordenada com outros membros
+                                da equipe. Sua função de distração pode ser eficaz quando utilizada em conjunto
+                                com personagens complementares que maximizam o tempo em que ela mantém os
+                                inimigos afastados, garantindo mais liberdade para os aliados realizarem suas
+                                tarefas</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="cartao-toon tipo-nenhum" id="cartao-shrimpo">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Shrimpo</h2>
+                        </div>
+                        <span class="tipo">toon</span>
+                        <div class="cartao-imagem">
+                            <img src="./src/imagens/shrimpo.png" alt="Shrimpo">
+                        </div>
+                    </div>
+                    <div class="cartao-informacoes">
+                        <div class="descricao">
+                            <h3>Descrição</h3>
+                            <p>Shrimpo é considerado o personagem mais fraco de Dandy's World, classificado na
+                                posição mais baixa da lista de personagens. Apesar de ser um extrator, suas
+                                habilidades e estatísticas não oferecem vantagens significativas em comparação
+                                com os outros personagens do jogo. Ele é descrito como um personagem que é,
+                                infelizmente, subaproveitado em quase todas as situações, o que o torna uma
+                                escolha pouco popular entre os jogadores. Contudo, Shrimpo pode ainda ter um
+                                charme para aqueles que gostam de um desafio ou que desejam experimentar todas
+                                as opções disponíveis no jogo​.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="cartao-toon tipo-suporte" id="cartao-brightney">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Brightney</h2>
+                        </div>
+                        <span class="tipo">toon</span>
+                        <div class="cartao-imagem">
+                            <img src="./src/imagens/brightney.png" alt="Brightney">
+                        </div>
+                    </div>
+                    <div class="cartao-informacoes">
+                        <div class="descricao">
+                            <h3>Descrição</h3>
+                            <p>Brightney é uma personagem versátil em Dandy's World, conhecida por sua habilidade de
+                                lidar com blackouts, o que a torna extremamente útil em níveis mais avançados. Ela
+                                possui alta resistência e uma boa velocidade de movimento, o que a faz ser uma escolha
+                                sólida para jogadores que precisam de estabilidade e suporte durante situações
+                                desafiadoras. Embora sua furtividade seja limitada, especialmente em partidas
+                                multiplayer, suas outras habilidades compensam, tornando-a uma excelente aliada em
+                                equipes que precisam de uma abordagem mais segura e confiável.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="cartao-toon tipo-distraidor" id="cartao-goob">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Goob</h2>
+                        </div>
+                        <span class="tipo">toon</span>
+                        <div class="cartao-imagem">
+                            <img src="./src/imagens/goob.png" alt="Goob">
+                        </div>
+                    </div>
+                    <div class="cartao-informacoes">
+                        <div class="descricao">
+                            <h3>Descrição</h3>
+                            <p>Goob é um personagem adorável e funcional em Dandy's World, frequentemente elogiado por
+                                sua utilidade como um excelente distraidor. Ele é especialmente eficaz em momentos de
+                                alta pressão, como correr para o elevador, onde sua habilidade de desviar a atenção dos
+                                inimigos é inestimável. Goob é considerado um dos favoritos para equipes que precisam de
+                                suporte confiável, já que suas características ajudam a garantir a segurança de seus
+                                aliados enquanto realizam outras tarefas estratégicas​.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="cartao-toon tipo-extrator" id="cartao-rodger">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Rodger</h2>
+                        </div>
+                        <span class="tipo">toon</span>
+                        <div class="cartao-imagem">
+                            <img src="./src/imagens/rodger.png" alt="Rodger">
+                        </div>
+                    </div>
+                    <div class="cartao-informacoes">
+                        <div class="descricao">
+                            <h3>Descrição</h3>
+                            <p>Rodger é um personagem em Dandy's World descrito como um misto de força e carisma,
+                                frequentemente visto como o líder não oficial em partidas em equipe. Suas habilidades
+                                combinam resistência e ataque equilibrados, tornando-o útil tanto para tarefas ofensivas
+                                quanto defensivas. Rodger é especialmente valorizado por jogadores que gostam de
+                                personagens versáteis, capazes de se adaptar a diferentes estratégias. Apesar de sua
+                                popularidade, sua eficácia pode variar dependendo do estilo de jogo e da composição da
+                                equipe.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="cartao-toon tipo-multifuncional" id="cartao-razzle_and_dazzle">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Razzle & Dazzle</h2>
+                        </div>
+                        <span class="tipo">toon</span>
+                        <div class="cartao-imagem">
+                            <img src="./src/imagens/razzdazz.png" alt="Razzle_and_dazzle">
+                        </div>
+                    </div>
+                    <div class="cartao-informacoes">
+                        <div class="descricao">
+                            <h3>Descrição</h3>
+                            <p>
+                                Razzle e Dazzle são representados como máscaras de comédia e tragédia, simbolizando
+                                humor e melancolia. Razzle, a máscara branca, exibe um sorriso otimista, enquanto
+                                Dazzle, a máscara preta, mostra preocupação com lágrimas estilizadas. Unidos fisicamente
+                                e emocionalmente, possuem aparências complementares com cores divididas em seus corpos.
+                                Razzle é extrovertido e adora ser o centro das atenções, enquanto Dazzle prefere
+                                manter-se mais reservado. Apesar de suas diferenças, ambos encontram equilíbrio no apoio
+                                mútuo, refletindo a dualidade entre alegria e tristeza. A dualidade dos personagens
+                                trazem uma característica incrível do personagem em que Dazzle & Razzle representam: A
+                                multifuncionalidade. O personagem unicista é também All-Rounder, Distractor (Nos andares de números ímpares)
+                                 e Extractor (Nos andares de números pares). </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="cartao-toon tipo-sobrevivente" id="cartao-scraps">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Scraps</h2>
+                        </div>
+                        <span class="tipo">toon</span>
+                        <div class="cartao-imagem">
+                            <img src="./src/imagens/scraps.png" alt="Scraps">
+                        </div>
+                    </div>
+                    <div class="cartao-informacoes">
+                        <div class="descricao">
+                            <h3>Descrição</h3>
+                            <p>Scraps, em Dandy's World, é um personagem de nível A conhecido por suas habilidades úteis
+                                e equilibradas. Ele é uma excelente escolha para jogadores que buscam um aliado
+                                confiável para partidas em equipe, oferecendo suporte valioso com suas estatísticas
+                                sólidas e habilidades que se destacam em cenários de sobrevivência. Scraps é versátil e
+                                apreciado por sua capacidade de complementar diferentes estilos de jogo, tornando-o uma
+                                escolha popular entre jogadores experientes e iniciantes</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="cartao-toon tipo-sobrevivente" id="cartao-toodles">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Toodles</h2>
+                        </div>
+                        <span class="tipo">toon</span>
+                        <div class="cartao-imagem">
+                            <img src="./src/imagens/toodles.png" alt="Toodles">
+                        </div>
+                    </div>
+                    <div class="cartao-informacoes">
+                        <div class="descricao">
+                            <h3>Descrição</h3>
+                            <p>Toodles é o personagem mais jovem de Dandy's World, conhecido por sua personalidade
+                                enérgica e por sempre querer ajudar. Apesar de sua disposição otimista, Toodles
+                                frequentemente tropeça em suas próprias tentativas de assistência, tornando-o um aliado
+                                que requer supervisão. Sua inocência e entusiasmo o tornam querido pelos jogadores, mas
+                                suas habilidades podem ser imprevisíveis em cenários mais complexos. Ele é ideal para
+                                quem busca uma experiência descontraída e divertida no jogo​.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="cartao-toon tipo-suporte" id="cartao-astro">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Astro</h2>
+                        </div>
+                        <span class="tipo">toon</span>
+                        <div class="cartao-imagem">
+                            <img src="./src/imagens/astro.png" alt="Astro">
+                        </div>
+                    </div>
+                    <div class="cartao-informacoes">
+                        <div class="descricao">
+                            <h3>Descrição</h3>
+                            <p>Astro, de Dandy's World, é um personagem de suporte muito eficaz, conhecido por suas
+                                habilidades estratégicas e versatilidade. Apesar de possuir estatísticas que limitam seu
+                                potencial em confrontos diretos, suas capacidades de suporte o tornam uma escolha
+                                valiosa para equipes bem organizadas. Ele é especialmente útil em situações que exigem
+                                coordenação e planejamento, sendo uma escolha sólida para jogadores que preferem um
+                                estilo de jogo mais tático​.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="cartao-toon tipo-suporte" id="cartao-vee">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Vee</h2>
+                        </div>
+                        <span class="tipo">toon</span>
+                        <div class="cartao-imagem">
+                            <img src="./src/imagens/vee.png" alt="Vee">
+                        </div>
+                    </div>
+                    <div class="cartao-informacoes">
+                        <div class="descricao">
+                            <h3>Descrição</h3>
+                            <p>Vee é uma personagem de Dandy's World facilmente reconhecida pelo monitor de TV que
+                                substitui sua cabeça. Especializada em extração, ela é altamente eficiente graças à sua
+                                habilidade "Mic Check", que destaca todos os inimigos (Twisteds) no andar por alguns
+                                segundos, e "Camera Hijack", que mostra a localização da máquina de extração mais
+                                próxima. Essas habilidades fazem dela uma excelente escolha para tarefas de suporte,
+                                apesar de sua baixa velocidade e furtividade.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="cartao-toon tipo-distraidor" id="cartao-flutter">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Flutter</h2>
+                        </div>
+                        <span class="tipo">toon</span>
+                        <div class="cartao-imagem">
+                            <img src="./src/imagens/flutter.png" alt="Flutter">
+                        </div>
+                    </div>
+                    <div class="cartao-informacoes">
+                        <div class="descricao">
+                            <h3>Descrição</h3>
+                            <p>Flutter é uma personagem vibrante e otimista de Dandy's World, conhecida por seu
+                                entusiasmo em encorajar os outros e espalhar mensagens de amizade. Ela é um adorável
+                                híbrido de borboleta, com asas ciano decoradas com corações brancos e um visual que
+                                inclui um vestido lilás, detalhes em pelúcia e maquiagem colorida. Seu poder especial,
+                                "Floaty Dash", lhe dá alta mobilidade, permitindo escapadas rápidas e suporte
+                                estratégico em equipe. Ela é ideal para movimentação ágil e distrações no jogo​.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="cartao-toon tipo-allrounder" id="cartao-teagan">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Teagan</h2>
+                        </div>
+                        <span class="tipo">toon</span>
+                        <div class="cartao-imagem">
+                            <img src="./src/imagens/teagan.png" alt="Teagan">
+                        </div>
+                    </div>
+                    <div class="cartao-informacoes">
+                        <div class="descricao">
+                            <h3>Descrição</h3>
+                            <p> Teagan, de Dandy's World, é uma personagem com habilidades centradas na autocura,
+                                permitindo que ela se regenere durante momentos críticos. Essa característica faz dela
+                                uma boa escolha para jogadores que preferem uma abordagem mais independente em partidas
+                                solo. Entretanto, Teagan é considerada menos eficaz em equipes devido à falta de
+                                habilidades que beneficiem diretamente os aliados, o que a torna menos popular em
+                                cenários colaborativos. Sua versatilidade em situações específicas a coloca como uma
+                                personagem de nicho, ideal para jogadores que valorizam sobrevivência individual sobre
+                                suporte estratégico</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="cartao-toon tipo-allrounder" id="cartao-tisha">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Tisha</h2>
+                        </div>
+                        <span class="tipo">toon</span>
+                        <div class="cartao-imagem">
+                            <img src="./src/imagens/tisha.png" alt="Tisha">
+                        </div>
+                    </div>
+                    <div class="cartao-informacoes">
+                        <div class="descricao">
+                            <h3>Descrição</h3>
+                            <p> Tisha, em Dandy's World, é conhecida por sua habilidade de criar um "pulso" que aumenta
+                                a velocidade de movimento de personagens ao redor em momentos cruciais, como fugas. Essa
+                                habilidade é especialmente valiosa para situações de perseguição ou deslocamento rápido
+                                em equipe (por isso, ela também é um Toon com a função Distractor). Seu custo acessível
+                                e eficácia em momentos estratégicos fazem dela uma personagem altamente recomendada para
+                                jogadores que buscam otimizar o trabalho em grupo. Ela se destaca como suporte em
+                                cenários desafiadores.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="cartao-toon tipo-distraidor" id="cartao-pebble">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Pebble</h2>
+                        </div>
+                        <span class="tipo">toon</span>
+                        <div class="cartao-imagem">
+                            <img src="./src/imagens/pebble.png" alt="Pebble">
+                        </div>
+                    </div>
+                    <div class="cartao-informacoes">
+                        <div class="descricao">
+                            <h3>Descrição</h3>
+                            <p>No universo de Dandy's World, Pebble é um personagem interessante com habilidades
+                                práticas, especialmente em situações de jogo tático. Ele tem a habilidade ativa "Speak",
+                                que permite que ele emita latidos altos para reduzir drasticamente a furtividade,
+                                alertando os inimigos próximos. Além disso, sua habilidade passiva, "Fetch", permite que
+                                ele detecte itens nas proximidades, destacando-os para o jogador. Isso o torna útil em
+                                missões de busca ou para descobrir recursos ocultos no ambiente do jogo.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="cartao-toon tipo-suporte" id="cartao-shelly">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Shelly</h2>
+                        </div>
+                        <span class="tipo">toon</span>
+                        <div class="cartao-imagem">
+                            <img src="./src/imagens/shelly.png" alt="Shelly">
+                        </div>
+                    </div>
+                    <div class="cartao-informacoes">
+                        <div class="descricao">
+                            <h3>Descrição</h3>
+                            <p>Shelly, em Dandy's World, é uma personagem altamente valorizada por sua habilidade de
+                                suporte em missões de extração. Seu poder especial aumenta a velocidade de extração de
+                                um aliado selecionado em até 75% por 15 segundos, tornando-a ideal para situações que
+                                demandam rapidez e eficiência. Sua presença em uma equipe é quase indispensável em
+                                desafios que envolvem pressão de tempo, destacando-se como uma das melhores opções para
+                                estratégias colaborativas.No entanto, ela não é tão versátil em cenários solo, já que
+                                sua eficácia depende de ajudar outros jogadores.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="cartao-toon tipo-suporte" id="cartao-cosmo">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Cosmo</h2>
+                        </div>
+                        <span class="tipo">toon</span>
+                        <div class="cartao-imagem">
+                            <img src="./src/imagens/cosmo.png" alt="Cosmo">
+                        </div>
+                    </div>
+                    <div class="cartao-informacoes">
+                        <div class="descricao">
+                            <h3>Descrição</h3>
+                            <p>Cosmo é um personagem de suporte no jogo Dandy's World. Ele possui uma habilidade
+                                especial chamada "Sharing Is Caring", que permite transferir um ponto de vida para outro
+                                personagem sem risco de morrer, já que não pode doar seu último ponto de vida. Isso
+                                torna Cosmo valioso para equipes que precisam de suporte constante, especialmente em
+                                situações críticas. Sua movimentação e resistência destacam-se, embora sua eficiência em
+                                máquinas de extração seja mediana​.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="cartao-toon tipo-allrounder" id="cartao-finn">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Finn</h2>
+                        </div>
+                        <span class="tipo">toon</span>
+                        <div class="cartao-imagem">
+                            <img src="./src/imagens/finn.png" alt="Finn">
+                        </div>
+                    </div>
+                    <div class="cartao-informacoes">
+                        <div class="descricao">
+                            <h3>Descrição</h3>
+                            <p>Finn, no jogo Dandy's World, é um personagem com um conjunto de habilidades e
+                                estatísticas que o classificam como de nível C na tier list. Isso significa que ele é
+                                viável, mas possui limitações em relação a outros Toons mais poderosos ou versáteis. Sua
+                                habilidade passiva, Reel In, aumenta a velocidade de movimento em 33% por 10 segundos
+                                sempre que uma máquina é concluída. Suas estatísticas gerais incluem resistência e
+                                furtividade medianas, com foco maior em velocidade e capacidade de concluir tarefas
+                                rapidamente​.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="cartao-toon tipo-extrator" id="cartao-glisten">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Glisten</h2>
+                        </div>
+                        <span class="tipo">toon</span>
+                        <div class="cartao-imagem">
+                            <img src="./src/imagens/glisten.png" alt="Glisten">
+                        </div>
+                    </div>
+                    <div class="cartao-informacoes">
+                        <div class="descricao">
+                            <h3>Descrição</h3>
+                            <p>Glisten é um personagem carismático e vaidoso de Dandy's World, que adora estar no centro
+                                das atenções. Ele é descrito como um espelho com borda dourada e um laço rosa nas
+                                costas, apresentando um estilo alegre e chamativo. Seu ego pode gerar alguns conflitos,
+                                mas ele sempre luta pelo que é certo e apoia seus amigos. Glisten possui uma habilidade
+                                única chamada "Reflection", que permite viajar instantaneamente através de espelhos para
+                                outros personagens, o que o torna útil para movimentação rápida durante o jogo. Ele é um
+                                personagem popular por sua personalidade extrovertida e habilidades estratégicas, com
+                                uma forte presença no campo de extração​.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="cartao-toon tipo-suporte" id="cartao-sprout">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Sprout</h2>
+                        </div>
+                        <span class="tipo">toon</span>
+                        <div class="cartao-imagem">
+                            <img src="./src/imagens/sprout.png" alt="Sprout">
+                        </div>
+                    </div>
+                    <div class="cartao-informacoes">
+                        <div class="descricao">
+                            <h3>Descrição</h3>
+                            <p>Sprout é um Toon acolhedor e protetor de Dandy's World. Ele se destaca por suas
+                                habilidades de cura, usando Baked Sweets para curar um aliado em 1 ponto de vida. Sua
+                                habilidade passiva, Overprotective, permite que ele monitore a saúde e a localização de
+                                todos os Toons no campo. Ele é desbloqueado após completar tarefas específicas, como
+                                missões de maestria e pesquisa sobre o "Twisted Sprout"</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="cartao-toon tipo-sobrevivente" id="cartao-gigi">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Gigi</h2>
+                        </div>
+                        <span class="tipo">toon</span>
+                        <div class="cartao-imagem">
+                            <img src="./src/imagens/gigi.png" alt="Gigi">
+                        </div>
+                    </div>
+                    <div class="cartao-informacoes">
+                        <div class="descricao">
+                            <h3>Descrição</h3>
+                            <p>Gigi é uma Toon animada que está sempre em busca da próxima aventura divertida. À medida
+                                que explora diversos lugares, ela frequentemente se vê colecionando itens e souvenirs
+                                divertidos! Embora, ela pode não ser a pessoa mais generosa para compartilhar. Seu nome
+                                verdadeiro é 'Gigi, The Gachapon', que representa uma máquina que gera brinquedos no
+                                Japão.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="cartao-toon tipo-extrator" id="cartao-connie">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Connie</h2>
+                        </div>
+                        <span class="tipo">toon</span>
+                        <div class="cartao-imagem">
+                            <img src="./src/imagens/connie.png" alt="Connie">
+                        </div>
+                    </div>
+                    <div class="cartao-informacoes">
+                        <div class="descricao">
+                            <h3>Descrição</h3>
+                            <p>Connie é uma personagem que adiciona profundidade emocional e narrativa ao jogo. Sua
+                                história parece conectada a temas de determinação e superação, criando uma identificação
+                                natural com os jogadores. Sua possível habilidade estratégica ou suporte diversifica as
+                                mecânicas de jogo, tornando-a essencial para momentos críticos. Connie também se destaca
+                                por trazer representatividade, seja por sua personalidade marcante ou por elementos
+                                visuais únicos.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="cartao-toon tipo-allrounder" id="cartao-looey">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Looey</h2>
+                        </div>
+                        <span class="tipo">toon</span>
+                        <div class="cartao-imagem">
+                            <img src="./src/imagens/looey.png" alt="Looey">
+                        </div>
+                    </div>
+                    <div class="cartao-informacoes">
+                        <div class="descricao">
+                            <h3>Descrição</h3>
+                            <p>Looey apresenta uma energia mais dinâmica e ousada, provavelmente oferecendo habilidades
+                                que favorecem ação direta ou improvisação. Ele contribui para um ritmo mais ágil na
+                                jogabilidade, atraindo jogadores que preferem uma abordagem mais agressiva ou criativa.
+                                Sua atitude e humor também podem equilibrar a narrativa, fornecendo momentos de alívio
+                                cômico e conexões emocionais com os demais personagens.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <nav class="listagem">
+                <ul>
+                    <li class="toon ativo" id="dandy">
+                        <img src="src/imagens/dandy.png" alt="cabeça do dandy" />
+                        <span>Dandy</span>
+                    </li>
+                    <li class="toon" id="boxten">
+                        <img src="src/imagens/boxten.png" alt="cabeça do boxten" />
+                        <span>Boxten</span>
+                    </li>
+                    <li class="toon" id="poppy">
+                        <img src="src/imagens/poppy.png" alt="cabeça da poppy" />
+                        <span>Poppy</span>
+                    </li>
+                    <li class="toon" id="shrimpo">
+                        <img src="src/imagens/shrimpo.png" alt="cabeça do shrimpo" />
+                        <span>Shrimpo</span>
+                    </li>
+                    <li class="toon" id="brightney">
+                        <img src="src/imagens/brightney.png" alt="cabeça da brightney" />
+                        <span>Brightney</span>
+                    </li>
+                    <li class="toon" id="goob">
+                        <img src="src/imagens/goob.png" alt="cabeça do goob" />
+                        <span>Goob</span>
+                    <li class="toon" id="rodger">
+                        <img src="src/imagens/rodger.png" alt="cabeça do rodger" />
+                        <span>Rodger</span>
+                    </li>
+                    <li class="toon" id="razzle_and_dazzle">
+                        <img src="src/imagens/razzdazz.png" alt="cabeça do razzle_and_dazzle" />
+                        <span>Razzle and Dazzle</span>
+                    </li>
+                </ul>
+            </nav>
+            <nav class="listagem">
+                <ul>
+                    <li class="toon" id="scraps">
+                        <img src="src/imagens/scraps.png" alt="cabeça da scraps" />
+                        <span>Scraps</span>
+                    </li>
+                    <li class="toon" id="toodles">
+                        <img src="src/imagens/toodles.png" alt="cabeça da toodles" />
+                        <span>Toodles</span>
+                    </li>
+                    <li class="toon" id="astro">
+                        <img src="src/imagens/astro.png" alt="cabeça do astro" />
+                        <span>Astro</span>
+                    </li>
+                    <li class="toon" id="vee">
+                        <img src="src/imagens/vee.png" alt="cabeça da vee" />
+                        <span>Vee</span>
+                    <li class="toon" id="flutter">
+                        <img src="src/imagens/flutter.png" alt="cabeça da flutter" />
+                        <span>Flutter</span>
+                    </li>
+                    <li class="toon" id="teagan">
+                        <img src="src/imagens/teagan.png" alt="cabeça da teagan" />
+                        <span>Teagan</span>
+                    </li>
+                    <li class="toon" id="tisha">
+                        <img src="src/imagens/tisha.png" alt="cabeça da tisha" />
+                        <span>Tisha</span>
+                    </li>
+                    <li class="toon" id="pebble">
+                        <img src="src/imagens/pebble.png" alt="cabeça do pebble" />
+                        <span>Pebble</span>
+                    </li>
+                </ul>
+            </nav>
+            <nav class="listagem">
+                <ul>
+                    <li class="toon" id="shelly">
+                        <img src="src/imagens/shelly.png" alt="cabeça da shelly" />
+                        <span>Shelly</span>
+                    </li>
+                    <li class="toon" id="cosmo">
+                        <img src="src/imagens/cosmo.png" alt="cabeça do cosmo" />
+                        <span>Cosmo</span>
+                    </li>
+                    <li class="toon" id="finn">
+                        <img src="src/imagens/finn.png" alt="cabeça do finn" />
+                        <span>Finn</span>
+                    </li>
+                    <li class="toon" id="glisten">
+                        <img src="src/imagens/glisten.png" alt="cabeça do glisten" />
+                        <span>Glisten</span>
+                    </li>
+                    <li class="toon" id="sprout">
+                        <img src="src/imagens/sprout.png" alt="cabeça do sprout" />
+                        <span>Sprout</span>
+                    </li>
+                    <li class="toon" id="gigi">
+                        <img src="src/imagens/gigi.png" alt="cabeça da gigi" />
+                        <span>Gigi</span>
+                    </li>
+                    <li class="toon" id="connie">
+                        <img src="src/imagens/connie.png" alt="cabeça da connie" />
+                        <span>Connie</span>
+                    </li>
+                    <li class="toon" id="looey">
+                        <img src="src/imagens/looey.png" alt="cabeça do looey" />
+                        <span>Looey</span>
+                    </li>
+                </ul>
+            </nav>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>

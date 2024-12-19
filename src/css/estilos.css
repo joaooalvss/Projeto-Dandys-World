@@ -1,0 +1,162 @@
+body{
+   font-family: "Poppins", sans-serif; 
+   background-image: url("../imagens/background.png");
+   background-size: cover;
+   background-position: center;
+}
+
+body::before{
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+
+  backdrop-filter: blur(6px);
+}
+
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.toons{
+  display: flex;
+  gap: 30px;
+  padding: 30px 0;
+}
+
+.cartao-toon {
+  display: none;
+  max-width: 360px;
+  border-radius: 10px;
+
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.cartao-toon.aberto{
+  display: block;
+}
+
+.cartao-toon img{
+  width: 100%;
+  height: 100%;
+  margin-top: 10px;
+}
+
+.cartao-toon .cartao-topo{
+  padding: 30px 40px 0;
+}
+
+.cartao-toon .nome{
+  margin-bottom: 5px;
+}
+
+.cartao-toon .tipo{
+  background-color: #ffffff;
+  font-size: 12px;
+  opacity: 0.7;
+  border-radius: 10px;
+  padding: 2px 10px;
+}
+
+.cartao-toon .detalhes{
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cartao-toon .cartao-informacoes{
+   background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  padding: 80px 30px 50px;
+  margin-top: -70px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.cartao-toon .cartao-informacoes h3{
+   font-size: 20px;
+   margin-bottom: 15px;
+   border-bottom: 1px solid #6b727a;
+
+}
+
+.cartao-toon .cartao-informacoes .descricao{
+   padding: 0 10px;
+   font-size: 15px;
+   max-height: 150px;
+   overflow-y: scroll;
+}
+
+.tipo-especial{
+   background-image: linear-gradient(#00ff80, #b3ffe8);
+}
+
+.tipo-allrounder{
+  background-color: #b3fff0;
+}
+
+.tipo-distraidor{
+  background-color: #f2721d;
+}
+
+.tipo-extrator{
+  background-color: #57382e;
+}
+
+.tipo-multifuncional{
+  background-color: #362e2e;
+}
+
+.tipo-nenhum{
+  background-color: #1a46ad;
+}
+
+.tipo-suporte{
+  background-color: #d92739;
+}
+
+.tipo-sobrevivente{
+  background-color: #ba68c8;
+}
+
+.listagem{
+  max-width: 200px;
+}
+
+.listagem .toon img{
+  width: 25%;
+}
+
+.listagem .toon{
+  background-color: #6b727a;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  border-radius: 30px ;
+  min-height: 70px;
+  transition: 0.15 ease-in-out;
+}
+
+.listagem .toon:hover{
+  transform: scale(1.15);
+}
+
+.listagem .toon span{
+  padding-right: 20px;
+}
+
+.listagem .toon.ativo{
+  background-color: #ff666a
+}
