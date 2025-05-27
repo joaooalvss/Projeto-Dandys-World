@@ -1,6 +1,6 @@
 body{
   font-family: Fredoka, Rubik, Arial, Helvetica, sans-serif;
-   background-image: url("../imagens/backgroundnatal.png");
+   background-image: url("../imagens/-backgroundblot.png");
    background-size: cover;
    background-position: center;
 }
@@ -55,13 +55,56 @@ main{
 
 .cartao-toon .nome{
   margin-bottom: 5px;
-  
 }
 
 .cartao-toon .tipo{
   background-color: #ffffff;
   font-size: 12px;
   opacity: 0.7;
+  border-radius: 10px;
+  padding: 2px 10px;
+}
+
+.cartao-toon .tipo-main{
+  background-image: linear-gradient(#4E1B1F, #442E16, #403E15, #15401A, #132E35, #23183E);
+  color: #ffffff;
+  font-size: 12px;
+  opacity: 0.7;
+  border-radius: 10px;
+  padding: 2px 10px;
+}
+
+.listagem .main span{
+    font-family: Fredoka;
+    font-weight: bold;
+    background: linear-gradient(to right, #B84646, #BA7F3C, #B7B03C, #44B03E, #377CA8, #6244AF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.cartao-toon .tipo-staff{
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 12px;
+  opacity: 0.7;
+  border-radius: 10px;
+  padding: 2px 10px;
+}
+
+.cartao-toon .tipo-natal{
+  background-color: #f01e1e;
+  color: #ffffff;
+  font-size: 12px;
+  opacity: 0.7;
+  border-radius: 10px;
+  padding: 2px 10px;
+}
+
+.cartao-toon .tipo-pascoa2025{
+  background-color: #efca27;
+  color: #000000;
+  font-size: 12px;
+  opacity: 1;
   border-radius: 10px;
   padding: 2px 10px;
 }
@@ -102,15 +145,15 @@ main{
 }
 
 .tipo-allrounder{
-  background-color: #b3fff0;
+  background-color: #61061e;
 }
 
-.tipo-distraidor{
-  background-color: #f2721d;
+.tipo-distractor{
+  background-color: #07732b;
 }
 
 .tipo-extrator{
-  background-color: #57382e;
+  background-color: #b64c29;
 }
 
 .tipo-multifuncional{
@@ -122,19 +165,24 @@ main{
 }
 
 .tipo-suporte{
-  background-color: #d92739;
+  background-color: #566195;
 }
 
 .tipo-sobrevivente{
-  background-color: #ba68c8;
+  background-color: #9d0fb6;
 }
 
 .tipo-evento{
   background-image: linear-gradient(#f01e1e, #ffffff);
 }
 
+.tipo-pascoa{
+ background-image: linear-gradient(#b84d84, #38909a);
+}
+
 .listagem{
   max-width: 200px;
+  margin: 5px;
 }
 
 .listagem .toon img{
@@ -144,6 +192,7 @@ main{
 .listagem .toon {
   background-image: linear-gradient(#414141, #191919);
   color: #ffffff;
+    font-weight: bold;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -152,11 +201,12 @@ main{
   cursor: pointer;
   border-radius: 30px ;
   min-height: 70px;
-  transition: 0.15 ease-in-out;
+  transition: transform 0.15, ease-in-out;
 }
 
 .listagem .toon .span{
   font-size: 10px;
+  font-family: Fredoka;
 }
 
 .listagem .main{
@@ -171,9 +221,13 @@ main{
     -webkit-text-fill-color: transparent;
 }
 
-.listagem .evento{
+.listagem .natal{
   background-image: linear-gradient(#5d1c1a, #124a19);
   color: #ffe330;
+}
+
+.listagem .pascoa{
+  background-image: linear-gradient(#71475d, #6c6347, #29656c);
 }
 
 .listagem .toon:hover{
